@@ -10,6 +10,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { useState } from "react";
+
 import "./WeeklyTrends.css";
 
 function WeeklyTrends({ records = [] }) {
