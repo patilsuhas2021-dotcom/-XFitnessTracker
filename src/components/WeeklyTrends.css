@@ -1,0 +1,53 @@
+
+.weekly-trends-card {
+  width: 100%;
+  min-width: 0;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.weekly-trends-card h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weekly-chart-container {
+  width: 100%;
+  height: 320px;
+  min-width: 0;
+}
+
+.weekly-empty-message {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .weekly-trends-card {
+    padding: 18px;
+  }
+
+  .weekly-chart-container {
+    height: 290px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weekly-trends-card {
+    padding: 14px;
+  }
+
+  .weekly-trends-card h2 {
+    font-size: 18px;
+  }
+
+  .weekly-chart-container {
+    height: 270px;
+  }
+}
